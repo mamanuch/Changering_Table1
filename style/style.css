@@ -36,75 +36,42 @@ background-color: blue;
 padding: 30px 100px 30px 100px;
 }
 
-.working_place{
-overflow: auto;
-empty-cells:show;
-}
-
-.working_row{
-empty-cells:show;
-}
-
-.working{
-
-height:5px;
-width:10px;
-border:3px solid grey;
-
-}
-
-.add_row{
-
-height:5px;
-width:10px;
-border:3px solid grey;
-
-empty-cells:show;
-background-color:red;
-
-}
-.firstadd_row{
-height:5px;
-width:10px;
-border:3px solid grey;
-background-color:green;
-empty-cells:show;
-}
-.centeradd_row{
-height:5px;
-width:10px;
-border:3px solid grey;
-background-color:red;
-empty-cells:show;
-
-
-}
-
-.lastadd_row{
-height:5px;
-width:10px;
-border:3px solid grey;
-background-color:blue;
-empty-cells:show;
-
-
-}
-
-
-#table_change{
-
-
+.table_change{
 margin:0 auto;
 }
 
-
-.add_column{
-
-height:5px;
-width:10px;
+.working_place{
+overflow: auto;
+}
+.working_row{
+height:15px;
+width:30px;
 border:3px solid grey;
+}
 
-empty-cells:show;
+td{
+height:15px;
+width:30px;
+border:3px solid grey;
+}
+
+.firstadd_row{
+height:15px;
+width:30px;
+border:3px solid grey;
+background-color:green;
+}
+
+.centeradd_row{
+height:15px;
+width:30px;
+border:3px solid grey;
 background-color:red;
-empty-cells:show;
+}
+
+.lastadd_row{
+height:15px;
+width:30px;
+border:3px solid grey;
+background-color:blue;
 }
